@@ -1,0 +1,121 @@
+//
+// Do any local configuration here
+//
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+zone	"munkhdari.com"	{
+	type master;
+	file "/etc/bind/munkhdari";
+};
+zone	"192.in-addr.arpa"	{
+	type master;
+	file "/etc/bind/reverse";
+};
+
+zone	"daalgavar.com"	{
+	type master;
+	file "/etc/bind/daalgavar";
+};
+zone	"172.in-addr.arpa" {
+	type master;
+	file "/etc/bind/reverse1";
+};
+zone	"muujig.com"	{
+	type master;
+	file "/etc/bind/muujig";
+};
+zone	"bind" {
+	type master;
+	file "/etc/bind/reverse2";
+};
+
+zone"munkhdari.com"{
+   type master;
+  file "/etc/bind/munkhdari";
+ };
+zone"bind" {
+   type master;
+  file "/etc/bind/reverse3";
+ };
+zone"munkhdari.com"{
+   type master;
+  file "/etc/bind/munkhdari";
+ };
+zone"bind" {
+   type master;
+  file "/etc/bind/reverse3";
+ };
+zone"munkhdari.com"{
+   type master;
+  file "/etc/bind/munkhdari";
+ };
+zone"bind" {
+   type master;
+  file "/etc/bind/reverse3";
+ };
+zone"munkhdari.com"{
+   type master;
+  file "/etc/bind/munkhdari";
+ };
+zone"1521984468820" {
+   type master;
+  file "/etc/bind/reverse3";
+ };
+zone"munkhdari.com"{
+   type master;
+  file "/etc/bind/munkhdari";
+ };
+zone"1521985642777" {
+   type master;
+  file "/etc/bind/reverse3";
+ };
+zone"munkhdari.com"{
+   type master;
+  file "/etc/bind/munkhdari";
+ };
+zone"1521985694623" {
+   type master;
+  file "/etc/bind/reverse3";
+ };
+zone"munkhdari.com"{
+   type master;
+  file "/etc/bind/munkhdari";
+ };
+zone"1521985856127" {
+   type master;
+  file "/etc/bind/reverse3";
+ };
+zone"zaku.mn"{
+   type master;
+  file "/etc/bind/zaku";
+ };
+zone"1521986185581" {
+   type master;
+  file "/etc/bind/reverse3";
+ };
+zone"test.mn"{
+   type master;
+  file "/etc/bind/test";
+ };
+zone"1521987401628" {
+   type master;
+  file "/etc/bind/reverse3";
+ };
+zone"zata.com"{
+   type master;
+  file "/etc/bind/zata";
+ };
+zone"1521987422267" {
+   type master;
+  file "/etc/bind/reverse3";
+ };
+zone"bold.mn"{
+   type master;
+  file "/etc/bind/bold";
+ };
+zone"1521987518534" {
+   type master;
+  file "/etc/bind/reverse3";
+ };

@@ -1,0 +1,9 @@
+$TTL    604800
+@       IN       SOA     wasd. root.wasd. (
+      2; Serial         
+ 604800; Refresh           
+ 2419200; Expire         
+ 604800 )); Negative Cache TTL
+;
+@ IN  NS  wasd.     
+442.34.861.291 IN  PTR wasd.       

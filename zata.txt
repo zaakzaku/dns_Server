@@ -1,0 +1,10 @@
+$TTL    604800
+@       IN       SOA     zata.com. root.zata.com. (
+      2; Serial         
+ 604800; Refresh           
+ 2419200; Expire         
+ 604800 )); Negative Cache TTL
+;
+@ IN  NS  zata.com.     
+@ IN  A 192.168.43.244     
+www IN A 192.168.43.244    
